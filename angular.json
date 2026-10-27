@@ -14,7 +14,7 @@
           "builder": "@angular-devkit/build-angular:application",
           "options": {
             "outputPath": "dist/islamic-finance-admin",
-            "index": "src/index.html",
+            "index": "src/app/finance/index.html",
             "browser": "src/main.ts",
             "polyfills": [
               "zone.js"
@@ -24,6 +24,19 @@
               {
                 "glob": "**/*",
                 "input": "public"
+              },
+              {
+                "glob": "**/*",
+                "input": "src/assets",
+                "output": "assets"
+              },
+              {
+                "glob": "*.html",
+                "ignore": [
+                  "index.html"
+                ],
+                "input": "src/app/finance",
+                "output": "."
               }
             ],
             "styles": [
@@ -82,6 +95,19 @@
               {
                 "glob": "**/*",
                 "input": "public"
+              },
+              {
+                "glob": "**/*",
+                "input": "src/assets",
+                "output": "assets"
+              },
+              {
+                "glob": "*.html",
+                "ignore": [
+                  "index.html"
+                ],
+                "input": "src/app/finance",
+                "output": "."
               }
             ],
             "styles": [

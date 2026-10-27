@@ -1,0 +1,837 @@
+<!DOCTYPE html>
+<html lang="en" class="light scroll-smooth" dir="ltr">
+    <head>
+        <meta charset="UTF-8">
+        <title>Hously - Tailwind CSS Real Estate Landing & Admin Dashboard Template</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="description" content="Tailwind CSS Saas & Software Landing Page Template">
+        <meta name="keywords" content="agency, application, business, clean, creative, cryptocurrency, it solutions, modern, multipurpose, nft marketplace, portfolio, saas, software, tailwind css">
+        <meta name="author" content="Shreethemes">
+        <meta name="website" content="https://shreethemes.in">
+        <meta name="email" content="support@shreethemes.in">
+        <meta name="version" content="3.0.0">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+        <!-- favicon -->
+        <link rel="icon" type="image/x-icon" href="/assets/images/favicon.ico?v=2">
+
+        <!-- Css -->
+        <!-- Main Css -->
+        <link href="assets/libs/simplebar/simplebar.min.css" rel="stylesheet">
+        <link href="assets/libs/remixicon/fonts/remixicon.css" rel="stylesheet" type="text/css" />
+        <link rel="stylesheet" href="assets/css/tailwind.css">
+
+    </head>
+    
+    <body class="font-league text-base text-slate-900 dark:text-white dark:bg-slate-900">
+        <!-- Loader Start -->
+        <!-- <div id="preloader">
+            <div id="status">
+                <div class="spinner">
+                    <div class="double-bounce1"></div>
+                    <div class="double-bounce2"></div>
+                </div>
+            </div>
+        </div> -->
+        <!-- Loader End -->
+
+
+        <div class="page-wrapper toggled">
+            <!-- sidebar-wrapper -->
+            <nav id="sidebar" class="sidebar-wrapper sidebar-dark">
+                <div class="sidebar-content">
+                    <div class="sidebar-brand">
+                        <a href="index.html"><img src="assets/images/logo-light.png" alt=""></a>
+                    </div>
+        
+                    <ul class="sidebar-menu border-t border-white/10" data-simplebar style="height: calc(100% - 70px);">
+                        <li>
+                            <a href="index.html"><i class="ri-dashboard-line font-normal me-2"></i>Dashboard</a>
+                        </li>
+
+                        <li>
+                            <a href="/explore-properties"><i class="ri-home-3-line font-normal me-2"></i>Explore Properties</a>
+                        </li>
+
+                        <li>
+                            <a href="favorite-property.html"><i class="ri-home-heart-line font-normal me-2"></i>Favorite Properties</a>
+                        </li>
+
+                        <li>
+                            <a href="add-property.html"><i class="ri-home-8-line font-normal me-2"></i>Add Properties</a>
+                        </li>
+
+                        <li class="sidebar-dropdown">
+                            <a href="javascript:void(0)"><i class="ri-apps-line font-normal me-2"></i>Apps </a>
+                            <div class="sidebar-submenu">
+                                <ul>
+                                    <li><a href="chat.html">Chat</a></li>
+                                    <li><a href="email.html">Email</a></li>
+                                    <li><a href="calendar.html">Calendar</a></li>
+                                </ul>
+                            </div>
+                        </li>
+
+                        <li class="sidebar-dropdown">
+                            <a href="javascript:void(0)"><i class="ri-user-settings-line font-normal me-2"></i>User Profile</a>
+                            <div class="sidebar-submenu">
+                                <ul>
+                                    <li><a href="profile.html">Profile</a></li>
+                                    <li><a href="profile-setting.html">Profile Settings</a></li>
+                                </ul>
+                            </div>
+                        </li>
+
+                        <li class="sidebar-dropdown">
+                            <a href="javascript:void(0)"><i class="ri-blogger-line font-normal me-2"></i>Blog</a>
+                            <div class="sidebar-submenu">
+                                <ul>
+                                    <li><a href="blog.html">Blogs</a></li>
+                                    <li><a href="blog-detail.html">Blog Detail</a></li>
+                                </ul>
+                            </div>
+                        </li>
+
+                        <li class="sidebar-dropdown">
+                            <a href="javascript:void(0)"><i class="ri-receipt-line font-normal me-2"></i>Invoice </a>
+                            <div class="sidebar-submenu">
+                                <ul>
+                                    <li><a href="invoice-list.html">Invoice List</a></li>
+                                    <li><a href="invoice.html">Invoice Preview</a></li>
+                                </ul>
+                            </div>
+                        </li>
+
+                        <li class="sidebar-dropdown">
+                            <a href="javascript:void(0)"><i class="ri-file-line font-normal me-2"></i>Pages</a>
+                            <div class="sidebar-submenu">
+                                <ul>
+                                    <li><a href="starter.html">Starter</a></li>
+                                    <li><a href="faqs.html">FAQs</a></li>
+                                    <li><a href="pricing.html">Pricing</a></li>
+                                    <li><a href="review.html">Review</a></li>
+                                    <li><a href="privacy.html">Privacy Policy</a></li>
+                                    <li><a href="terms.html">Term & Condition</a></li>
+                                </ul>
+                            </div>
+                        </li>
+
+                        <li class="sidebar-dropdown">
+                            <a href="javascript:void(0)"><i class="ri-login-circle-line font-normal me-2"></i>Authentication</a>
+                            <div class="sidebar-submenu">
+                                <ul>
+                                    <li><a href="login.html">Login</a></li>
+                                    <li><a href="signup.html">Signup</a></li>
+                                    <li><a href="signup-success.html">Signup Success</a></li>
+                                    <li><a href="reset-password.html">Reset Password</a></li>
+                                    <li><a href="lock-screen.html">Lockscreen</a></li>
+                                </ul>
+                            </div>
+                        </li>
+
+                        <li class="sidebar-dropdown">
+                            <a href="javascript:void(0)"><i class="ri-stack-line font-normal me-2"></i>Miscellaneous</a>
+                            <div class="sidebar-submenu">
+                                <ul>
+                                    <li><a href="comingsoon.html">Comingsoon</a></li>
+                                    <li><a href="maintenance.html">Maintenance</a></li>
+                                    <li><a href="error.html">Error</a></li>
+                                    <li><a href="thankyou.html">Thank You</a></li>
+                                </ul>
+                            </div>
+                        </li>
+
+                        <li class="relative lg:m-8 m-6 px-8 py-10 rounded-lg bg-linear-to-b to-transparent from-slate-800 text-center">
+                            <span class="relative z-10">
+                                <span class="text-xl font-medium h5 text-white">Upgrade to Pro</span>
+
+                                <span class="text-slate-400 mt-3 mb-5 block">Get one month free and subscribe to pro</span>
+
+                                <a href="https://1.envato.market/hously" target="_blank" class="py-2 px-5 block! font-semibold tracking-wide border align-middle transition duration-500 ease-in-out text-base text-center bg-gray-500/5 hover:bg-gray-500 border-gray-500/10 hover:border-gray-500 text-white rounded-md">Subscribe</a>
+                            </span>
+                
+                            <span class="ri-home-line text-[160px] absolute top-1/2 -translate-y-1/2 inset-s-0 inset-e-0 mx-auto text-center opacity-[0.02] text-white z-0"></span>
+                        </li>
+                    </ul>
+                    <!-- sidebar-menu  -->
+                </div>
+            </nav>
+            <!-- sidebar-wrapper  -->
+
+            <!-- Start Page Content -->
+            <main class="page-content bg-gray-50 dark:bg-slate-800">
+                <!-- Top Header -->
+                <div class="top-header">
+                    <div class="header-bar flex justify-between">
+                        <div class="flex items-center space-x-1">
+                            <!-- Logo -->
+                            <a href="#" class="xl:hidden block me-2">
+                                <img src="assets/images/logo-icon-32.png" class="md:hidden block" alt="">
+                                <span class="md:block hidden">
+                                    <img src="assets/images/logo-dark.png" class="inline-block dark:hidden" alt="">
+                                    <img src="assets/images/logo-light.png" class="hidden dark:inline-block" alt="">
+                                </span>
+                            </a>
+                            <!-- Logo -->
+
+                            <!-- show or close sidebar -->
+                            <a id="close-sidebar" class="size-8 inline-flex items-center justify-center tracking-wide align-middle duration-500 text-[20px] text-center bg-gray-50 dark:bg-slate-800 hover:bg-gray-100 dark:hover:bg-slate-700 border border-gray-100 dark:border-gray-800 text-slate-900 dark:text-white rounded-md" href="javascript:void(0)">
+                                <i class="ri-more-2-line"></i>
+                            </a>
+                            <!-- show or close sidebar -->
+            
+                            <!-- Searchbar -->
+                            <div class="ps-1.5">
+                                <div class="form-icon relative sm:block hidden">
+                                    <i class="ri-search-line absolute top-1/2 -translate-y-1/2 mt-px inset-s-3"></i>
+                                    <input type="text" class="form-input w-56 py-2 px-3 ps-9! h-8! bg-transparent dark:bg-slate-900 dark:text-slate-200 rounded-md outline-none border border-gray-200! dark:border-gray-800! focus:ring-0" name="s" id="searchItem" placeholder="Search...">
+                                </div>
+                            </div>
+                            <!-- Searchbar -->
+                        </div>
+
+                        <ul class="list-none mb-0 space-x-1">
+                            <!-- Country Dropdown -->
+                            <li class="dropdown inline-block relative">
+                                <button data-dropdown-toggle="dropdown" class="dropdown-toggle size-8 inline-flex items-center justify-center tracking-wide align-middle duration-500 text-[20px] text-center bg-gray-50 dark:bg-slate-800 hover:bg-gray-100 dark:hover:bg-slate-700 border border-gray-100 dark:border-gray-800 text-slate-900 dark:text-white rounded-md" type="button">
+                                    <img src="assets/images/flags/usa.png" class="size-6 rounded-md" alt="">
+                                </button>
+                                <!-- Dropdown menu -->
+                                <div class="dropdown-menu absolute inset-e-0 m-0 mt-4 z-10 w-36 rounded-md overflow-hidden bg-white dark:bg-slate-900 shadow-sm dark:shadow-gray-700 hidden" onclick="event.stopPropagation();">
+                                    <ul class="list-none py-2 text-start">
+                                        <li class="my-1">
+                                            <a href="" class="flex items-center text-[15px] font-medium py-1.5 px-4 dark:text-white/70 hover:text-primary dark:hover:text-white"><img src="assets/images/flags/germany.png" class="size-6 rounded-md me-2 shadow-sm dark:shadow-gray-700" alt=""> German</a>
+                                        </li>
+                                        <li class="my-1">
+                                            <a href="" class="flex items-center text-[15px] font-medium py-1.5 px-4 dark:text-white/70 hover:text-primary dark:hover:text-white"><img src="assets/images/flags/italy.png" class="size-6 rounded-md me-2 shadow-sm dark:shadow-gray-700" alt=""> Italian</a>
+                                        </li>
+                                        <li class="my-1">
+                                            <a href="" class="flex items-center text-[15px] font-medium py-1.5 px-4 dark:text-white/70 hover:text-primary dark:hover:text-white"><img src="assets/images/flags/russia.png" class="size-6 rounded-md me-2 shadow-sm dark:shadow-gray-700" alt=""> Russian</a>
+                                        </li>
+                                        <li class="my-1">
+                                            <a href="" class="flex items-center text-[15px] font-medium py-1.5 px-4 dark:text-white/70 hover:text-primary dark:hover:text-white"><img src="assets/images/flags/spain.png" class="size-6 rounded-md me-2 shadow-sm dark:shadow-gray-700" alt=""> Spanish</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <!-- Country Dropdown -->
+
+                            <!-- Notification Dropdown -->
+                            <li class="dropdown inline-block relative">
+                                <button data-dropdown-toggle="dropdown" class="dropdown-toggle size-8 inline-flex items-center justify-center tracking-wide align-middle duration-500 text-[20px] text-center bg-gray-50 dark:bg-slate-800 hover:bg-gray-100 dark:hover:bg-slate-700 border border-gray-100 dark:border-gray-800 text-slate-900 dark:text-white rounded-md" type="button">
+                                    <i class="ri-notification-line"></i>
+                                    <span class="absolute top-0 inset-e-0 flex items-center justify-center bg-red-600 text-white text-[10px] font-bold rounded-md size-2 after:content-[''] after:absolute after:h-2 after:w-2 after:bg-red-600 after:top-0 after:inset-e-0 after:rounded-md after:animate-ping"></span>
+                                </button>
+                                <!-- Dropdown menu -->
+                                <div class="dropdown-menu absolute inset-e-0 m-0 mt-4 z-10 w-64 rounded-md overflow-hidden bg-white dark:bg-slate-900 shadow-sm dark:shadow-gray-700 hidden" onclick="event.stopPropagation();">
+                                    <span class="px-4 py-4 flex justify-between">
+                                        <span class="font-semibold">Notifications</span>
+                                        <span class="flex items-center justify-center bg-red-600/20 text-red-600 text-[10px] font-bold rounded-md w-5 max-h-5 ms-1">3</span>
+                                    </span>
+                                    <ul class="py-2 text-start h-64 border-t border-gray-100 dark:border-gray-800" data-simplebar>
+                                        <li>
+                                            <a href="#!" class="block font-medium py-1.5 px-4">
+                                                <div class="flex items-center">
+                                                    <div class="size-10 rounded-md shadow-sm shadow-primary/10 dark:shadow-gray-700 bg-primary/10 dark:bg-slate-800 text-primary dark:text-white flex items-center justify-center">
+                                                        <i class="ri-shopping-cart-line"></i>
+                                                    </div>
+                                                    <div class="ms-2">
+                                                        <span class="text-[15px] font-medium block">Order Complete</span>
+                                                        <small class="text-slate-400">15 min ago</small>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#!" class="block font-medium py-1.5 px-4">
+                                                <div class="flex items-center">
+                                                    <img src="assets/images/client/04.jpg" class="size-10 rounded-md shadow-sm dark:shadow-gray-700" alt="">
+                                                    <div class="ms-2">
+                                                        <span class="text-[15px] font-medium block"><span class="font-semibold">Message</span> from Luis</span>
+                                                        <small class="text-slate-400">1 hour ago</small>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#!" class="block font-medium py-1.5 px-4">
+                                                <div class="flex items-center">
+                                                    <div class="size-10 rounded-md shadow-sm shadow-primary/10 dark:shadow-gray-700 bg-primary/10 dark:bg-slate-800 text-primary dark:text-white flex items-center justify-center">
+                                                        <i class="ri-money-dollar-circle-line"></i>
+                                                    </div>
+                                                    <div class="ms-2">
+                                                        <span class="text-[15px] font-medium block"><span class="font-semibold">One Refund Request</span></span>
+                                                        <small class="text-slate-400">2 hour ago</small>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#!" class="block font-medium py-1.5 px-4">
+                                                <div class="flex items-center">
+                                                    <div class="size-10 rounded-md shadow-sm shadow-primary/10 dark:shadow-gray-700 bg-primary/10 dark:bg-slate-800 text-primary dark:text-white flex items-center justify-center">
+                                                        <i class="ri-truck-line"></i>
+                                                    </div>
+                                                    <div class="ms-2">
+                                                        <span class="text-[15px] font-medium block">Deliverd your Order</span>
+                                                        <small class="text-slate-400">Yesterday</small>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#!" class="block font-medium py-1.5 px-4">
+                                                <div class="flex items-center">
+                                                    <img src="assets/images/client/05.jpg" class="size-10 rounded-md shadow-sm dark:shadow-gray-700" alt="">
+                                                    <div class="ms-2">
+                                                        <span class="text-[15px] font-medium block"><span class="font-semibold">Cally</span> started following you</span>
+                                                        <small class="text-slate-400">2 days ago</small>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li><!--end dropdown-->
+                            <!-- Notification Dropdown -->
+            
+                            <!-- User/Profile Dropdown -->
+                            <li class="dropdown inline-block relative">
+                                <button data-dropdown-toggle="dropdown" class="dropdown-toggle items-center" type="button">
+                                    <span class="size-8 inline-flex items-center justify-center tracking-wide align-middle duration-500 text-[20px] text-center bg-gray-50 dark:bg-slate-800 hover:bg-gray-100 dark:hover:bg-slate-700 border border-gray-100 dark:border-gray-800 text-slate-900 dark:text-white rounded-md"><img src="assets/images/client/07.jpg" class="rounded-md" alt=""></span>
+                                </button>
+                                <!-- Dropdown menu -->
+                                <div class="dropdown-menu absolute inset-e-0 m-0 mt-4 z-10 w-44 rounded-md overflow-hidden bg-white dark:bg-slate-900 shadow-sm dark:shadow-gray-700 hidden" onclick="event.stopPropagation();">
+                                    <ul class="py-2 text-start">
+                                        <li>
+                                            <a href="profile.html" class="block py-1 px-4 dark:text-white/70 hover:text-primary dark:hover:text-white"><i class="ri-user-line font-normal me-2"></i>Profile</a>
+                                        </li>
+                                        <li>
+                                            <a href="chat.html" class="block py-1 px-4 dark:text-white/70 hover:text-primary dark:hover:text-white"><i class="ri-chat-1-line font-normal me-2"></i>Chat</a>
+                                        </li>
+                                        <li>
+                                            <a href="profile-setting.html" class="block py-1 px-4 dark:text-white/70 hover:text-primary dark:hover:text-white"><i class="ri-settings-line font-normal me-2"></i>Settings</a>
+                                        </li>
+                                        <li class="border-t border-gray-100 dark:border-gray-800 my-2"></li>
+                                        <li>
+                                            <a href="lock-screen.html" class="block py-1 px-4 dark:text-white/70 hover:text-primary dark:hover:text-white"><i class="ri-lock-line font-normal me-2"></i>Lockscreen</a>
+                                        </li>
+                                        <li>
+                                            <a href="login.html" class="block py-1 px-4 dark:text-white/70 hover:text-primary dark:hover:text-white"><i class="ri-logout-circle-r-line font-normal me-2"></i>Logout</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li><!--end dropdown-->
+                            <!-- User/Profile Dropdown -->
+                        </ul>
+                    </div>
+                </div>
+                <!-- Top Header -->
+
+                <div class="container-fluid relative px-3">
+                    <div class="layout-specing">
+                        <!-- Start Content -->
+                        <div class="md:flex justify-between items-center">
+                            <h5 class="text-lg font-semibold">Email</h5>
+
+                            <ul class="tracking-[0.5px] inline-block sm:mt-0 mt-3">
+                                <li class="inline-block capitalize text-[16px] font-medium duration-500 dark:text-white/70 hover:text-primary dark:hover:text-white"><a href="index.html">Hously</a></li>
+                                <li class="inline-block text-base text-slate-950 dark:text-white/70 mx-0.5 ltr:rotate-0 rtl:rotate-180"><i class="ri-arrow-right-s-line"></i></li>
+                                <li class="inline-block capitalize text-[16px] font-medium text-primary dark:text-white" aria-current="page">Email</li>
+                            </ul>
+                        </div>
+
+                        <div class="grid md:grid-cols-12 grid-cols-1 mt-6 gap-2">
+                            <div class="xl:col-span-2 lg:col-span-3 md:col-span-4">
+                                <div class="rounded-md shadow-sm dark:shadow-gray-700 p-6 bg-white dark:bg-slate-900">
+                                    <a href="javascript:void(0)" class="py-2 px-5 inline-flex justify-center font-semibold tracking-wide border align-middle duration-500 text-base text-center bg-primary hover:bg-primary-dark border-primary hover:border-primary-dark text-white rounded-md w-full" onclick="composemail.showModal()"><i class="ri-add-line font-normal me-1"></i> Compose</a>
+                                    <ul class="flex-column mt-3" id="myTab" data-tabs-toggle="#myTabContent" role="tablist">
+                                        <li role="presentation">
+                                            <button class="px-4 py-2 text-base font-semibold rounded-md w-full hover:text-primary duration-500 text-start" id="index-tab" data-tabs-target="#index" type="button" role="tab" aria-controls="index" aria-selected="true"><i class="ri-inbox-line font-normal me-1"></i> Inbox</button>
+                                        </li>
+                                        <li role="presentation">
+                                            <button class="px-4 py-2 text-base font-semibold rounded-md w-full mt-2 duration-500 text-start" id="stared-tab" data-tabs-target="#stared" type="button" role="tab" aria-controls="stared" aria-selected="false"><i class="ri-star-s-line font-normal me-1"></i> Starred</button>
+                                        </li>
+                                        <li role="presentation">
+                                            <button class="px-4 py-2 text-base font-semibold rounded-md w-full mt-2 duration-500 text-start" id="spam-tab" data-tabs-target="#spam" type="button" role="tab" aria-controls="spam" aria-selected="false"><i class="ri-spam-2-line font-normal me-1"></i> Spam</button>
+                                        </li>
+                                        <li role="presentation">
+                                            <button class="px-4 py-2 text-base font-semibold rounded-md w-full mt-2 duration-500 text-start" id="sent-tab" data-tabs-target="#sent" type="button" role="tab" aria-controls="sent" aria-selected="false"><i class="ri-mail-send-line font-normal me-1"></i> Sent</button>
+                                        </li>
+                                        <li role="presentation">
+                                            <button class="px-4 py-2 text-base font-semibold rounded-md w-full mt-2 duration-500 text-start" id="draft-tab" data-tabs-target="#draft" type="button" role="tab" aria-controls="draft" aria-selected="false"><i class="ri-draft-line font-normal me-1"></i> Drafts</button>
+                                        </li>
+                                        <li role="presentation">
+                                            <button class="px-4 py-2 text-base font-semibold rounded-md w-full mt-2 duration-500 text-start" id="delete-tab" data-tabs-target="#delete" type="button" role="tab" aria-controls="delete" aria-selected="false"><i class="ri-delete-bin-line font-normal me-1"></i> Delete</button>
+                                        </li>
+                                        <li role="presentation">
+                                            <button class="px-4 py-2 text-base font-semibold rounded-md w-full mt-2 duration-500 text-start" id="note-tab" data-tabs-target="#note" type="button" role="tab" aria-controls="note" aria-selected="false"><i class="ri-sticky-note-line font-normal me-1"></i> Notes</button>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="xl:col-span-10 lg:col-span-9 md:col-span-8">
+                                <div id="myTabContent" class="">
+                                    <div class="" id="index" role="tabpanel" aria-labelledby="index-tab">
+                                        <div class="relative overflow-x-auto block w-full bg-white dark:bg-slate-900 shadow-sm dark:shadow-gray-700 rounded-md">
+                                            <table class="w-full text-start">
+                                                <thead class="text-base">
+                                                    <tr>
+                                                        <th class="text-start p-4 w-10 min-w-7.5 max-w-7.5">
+                                                            <input class="form-checkbox size-4 appearance-none rounded-sm border border-gray-200 dark:border-gray-800 accent-primary checked:appearance-auto dark:accent-primary focus:border-primary-300 focus:ring-0 focus:ring-offset-0 focus:ring-primary-200 focus:ring-opacity-50" type="checkbox" value="" id="allcheck">
+                                                        </th>
+                                                        <th class="text-center font-medium p-4 w-10 min-w-7.5 max-w-7.5"></th>
+                                                        <th class="text-start font-medium p-4 w-48 min-w-50">Name</th>
+                                                        <th class="text-start font-medium p-4 w-auto min-w-75">Subject</th>
+                                                        <th class="text-end font-medium p-4 w-48 min-w-50">Date & Time</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr>
+                                                        <th class="text-start border-t border-gray-100 dark:border-gray-800 p-4">
+                                                            <input class="form-checkbox size-4 appearance-none rounded-sm border border-gray-200 dark:border-gray-800 accent-primary checked:appearance-auto dark:accent-primary focus:border-primary-300 focus:ring-0 focus:ring-offset-0 focus:ring-primary-200 focus:ring-opacity-50" type="checkbox" value="" id="firstcheck">
+                                                        </th>
+                                                        <td class="text-center border-t border-gray-100 dark:border-gray-800 p-4">
+                                                            <a href=""><i class="ri-star-s-line text-[18px] text-slate-400 align-middle"></i></a>
+                                                        </td>
+                                                        <td class="text-start border-t border-gray-100 dark:border-gray-800 p-4">
+                                                            <a href="javascript:void(0)" class="font-medium hover:text-primary" onclick="emailpreview.showModal()">Calvin Carlo</a>
+                                                        </td>
+                                                        <td class="text-start border-t border-gray-100 dark:border-gray-800 p-4">
+                                                            <span class="text-slate-400">Hously Customization</span>
+                                                        </td>
+                                                        <td class="text-end border-t border-gray-100 dark:border-gray-800 p-4">
+                                                            <span class="text-slate-400">03:05PM</span>
+                                                        </td>
+                                                    </tr>
+                                                    
+                                                    <tr>
+                                                        <th class="text-start border-t border-gray-100 dark:border-gray-800 p-4">
+                                                            <input class="form-checkbox size-4 appearance-none rounded-sm border border-gray-200 dark:border-gray-800 accent-primary checked:appearance-auto dark:accent-primary focus:border-primary-300 focus:ring-0 focus:ring-offset-0 focus:ring-primary-200 focus:ring-opacity-50" type="checkbox" value="" id="firstcheck">
+                                                        </th>
+                                                        <td class="text-center border-t border-gray-100 dark:border-gray-800 p-4">
+                                                            <a href=""><i class="ri-star-s-line text-[18px] text-slate-400 align-middle"></i></a>
+                                                        </td>
+                                                        <td class="text-start border-t border-gray-100 dark:border-gray-800 p-4">
+                                                            <a href="javascript:void(0)" class="font-medium hover:text-primary" onclick="emailpreview.showModal()">Madeleine Jackson</a>
+                                                        </td>
+                                                        <td class="text-start border-t border-gray-100 dark:border-gray-800 p-4">
+                                                            <span class="text-slate-400">User-friendly value-added application 😊</span>
+                                                        </td>
+                                                        <td class="text-end border-t border-gray-100 dark:border-gray-800 p-4">
+                                                            <span class="text-slate-400">12:00PM</span>
+                                                        </td>
+                                                    </tr>
+                                                    
+                                                    <tr>
+                                                        <th class="text-start border-t border-gray-100 dark:border-gray-800 p-4">
+                                                            <input class="form-checkbox size-4 appearance-none rounded-sm border border-gray-200 dark:border-gray-800 accent-primary checked:appearance-auto dark:accent-primary focus:border-primary-300 focus:ring-0 focus:ring-offset-0 focus:ring-primary-200 focus:ring-opacity-50" type="checkbox" value="" id="firstcheck">
+                                                        </th>
+                                                        <td class="text-center border-t border-gray-100 dark:border-gray-800 p-4">
+                                                            <a href=""><i class="ri-star-s-fill text-[18px] text-yellow-500 align-middle"></i></a>
+                                                        </td>
+                                                        <td class="text-start border-t border-gray-100 dark:border-gray-800 p-4">
+                                                            <a href="javascript:void(0)" class="font-medium hover:text-primary" onclick="emailpreview.showModal()">Sherrie Miller</a>
+                                                        </td>
+                                                        <td class="text-start border-t border-gray-100 dark:border-gray-800 p-4">
+                                                            <span class="text-slate-400">Focused impactful open system 📷 😃</span>
+                                                        </td>
+                                                        <td class="text-end border-t border-gray-100 dark:border-gray-800 p-4">
+                                                            <span class="text-slate-400">8hours ago</span>
+                                                        </td>
+                                                    </tr>
+                                                    
+                                                    <tr>
+                                                        <th class="text-start border-t border-gray-100 dark:border-gray-800 p-4">
+                                                            <input class="form-checkbox size-4 appearance-none rounded-sm border border-gray-200 dark:border-gray-800 accent-primary checked:appearance-auto dark:accent-primary focus:border-primary-300 focus:ring-0 focus:ring-offset-0 focus:ring-primary-200 focus:ring-opacity-50" type="checkbox" value="" id="firstcheck">
+                                                        </th>
+                                                        <td class="text-center border-t border-gray-100 dark:border-gray-800 p-4">
+                                                            <a href=""><i class="ri-star-s-line text-[18px] text-slate-400 align-middle"></i></a>
+                                                        </td>
+                                                        <td class="text-start border-t border-gray-100 dark:border-gray-800 p-4">
+                                                            <a href="javascript:void(0)" class="font-medium hover:text-primary" onclick="emailpreview.showModal()">John Belgrave</a>
+                                                        </td>
+                                                        <td class="text-start border-t border-gray-100 dark:border-gray-800 p-4">
+                                                            <span class="text-slate-400">Profound systemic alliance 🎉 🎊</span>
+                                                        </td>
+                                                        <td class="text-end border-t border-gray-100 dark:border-gray-800 p-4">
+                                                            <span class="text-slate-400">20hours ago</span>
+                                                        </td>
+                                                    </tr>
+                                                    
+                                                    <tr>
+                                                        <th class="text-start border-t border-gray-100 dark:border-gray-800 p-4">
+                                                            <input class="form-checkbox size-4 appearance-none rounded-sm border border-gray-200 dark:border-gray-800 accent-primary checked:appearance-auto dark:accent-primary focus:border-primary-300 focus:ring-0 focus:ring-offset-0 focus:ring-primary-200 focus:ring-opacity-50" type="checkbox" value="" id="firstcheck">
+                                                        </th>
+                                                        <td class="text-center border-t border-gray-100 dark:border-gray-800 p-4">
+                                                            <a href=""><i class="ri-star-s-line text-[18px] text-slate-400 align-middle"></i></a>
+                                                        </td>
+                                                        <td class="text-start border-t border-gray-100 dark:border-gray-800 p-4">
+                                                            <a href="javascript:void(0)" class="font-medium hover:text-primary" onclick="emailpreview.showModal()">Jimmy Bojorquez</a>
+                                                        </td>
+                                                        <td class="text-start border-t border-gray-100 dark:border-gray-800 p-4">
+                                                            <span class="text-slate-400">Organized value-added model</span>
+                                                        </td>
+                                                        <td class="text-end border-t border-gray-100 dark:border-gray-800 p-4">
+                                                            <span class="text-slate-400">15th August 2024</span>
+                                                        </td>
+                                                    </tr>
+                                                    
+                                                    <tr>
+                                                        <th class="text-start border-t border-gray-100 dark:border-gray-800 p-4">
+                                                            <input class="form-checkbox size-4 appearance-none rounded-sm border border-gray-200 dark:border-gray-800 accent-primary checked:appearance-auto dark:accent-primary focus:border-primary-300 focus:ring-0 focus:ring-offset-0 focus:ring-primary-200 focus:ring-opacity-50" type="checkbox" value="" id="firstcheck">
+                                                        </th>
+                                                        <td class="text-center border-t border-gray-100 dark:border-gray-800 p-4">
+                                                            <a href=""><i class="ri-star-s-line text-[18px] text-slate-400 align-middle"></i></a>
+                                                        </td>
+                                                        <td class="text-start border-t border-gray-100 dark:border-gray-800 p-4">
+                                                            <a href="javascript:void(0)" class="font-medium hover:text-primary" onclick="emailpreview.showModal()">Louise Stewart</a>
+                                                        </td>
+                                                        <td class="text-start border-t border-gray-100 dark:border-gray-800 p-4">
+                                                            <span class="text-slate-400">Waterfall Model Update</span>
+                                                        </td>
+                                                        <td class="text-end border-t border-gray-100 dark:border-gray-800 p-4">
+                                                            <span class="text-slate-400">10th August 2024</span>
+                                                        </td>
+                                                    </tr>
+                                                    
+                                                    <tr>
+                                                        <th class="text-start border-t border-gray-100 dark:border-gray-800 p-4">
+                                                            <input class="form-checkbox size-4 appearance-none rounded-sm border border-gray-200 dark:border-gray-800 accent-primary checked:appearance-auto dark:accent-primary focus:border-primary-300 focus:ring-0 focus:ring-offset-0 focus:ring-primary-200 focus:ring-opacity-50" type="checkbox" value="" id="firstcheck">
+                                                        </th>
+                                                        <td class="text-center border-t border-gray-100 dark:border-gray-800 p-4">
+                                                            <a href=""><i class="ri-star-s-line text-[18px] text-slate-400 align-middle"></i></a>
+                                                        </td>
+                                                        <td class="text-start border-t border-gray-100 dark:border-gray-800 p-4">
+                                                            <a href="javascript:void(0)" class="font-medium hover:text-primary" onclick="emailpreview.showModal()">Kelly Hair</a>
+                                                        </td>
+                                                        <td class="text-start border-t border-gray-100 dark:border-gray-800 p-4">
+                                                            <span class="text-slate-400">Company Report</span>
+                                                        </td>
+                                                        <td class="text-end border-t border-gray-100 dark:border-gray-800 p-4">
+                                                            <span class="text-slate-400">8th August 2024</span>
+                                                        </td>
+                                                    </tr>
+                                                    
+                                                    <tr>
+                                                        <th class="text-start border-t border-gray-100 dark:border-gray-800 p-4">
+                                                            <input class="form-checkbox size-4 appearance-none rounded-sm border border-gray-200 dark:border-gray-800 accent-primary checked:appearance-auto dark:accent-primary focus:border-primary-300 focus:ring-0 focus:ring-offset-0 focus:ring-primary-200 focus:ring-opacity-50" type="checkbox" value="" id="firstcheck">
+                                                        </th>
+                                                        <td class="text-center border-t border-gray-100 dark:border-gray-800 p-4">
+                                                            <a href=""><i class="ri-star-s-fill text-[18px] text-yellow-500 align-middle"></i></a>
+                                                        </td>
+                                                        <td class="text-start border-t border-gray-100 dark:border-gray-800 p-4">
+                                                            <a href="javascript:void(0)" class="font-medium hover:text-primary" onclick="emailpreview.showModal()">Ester Casella</a>
+                                                        </td>
+                                                        <td class="text-start border-t border-gray-100 dark:border-gray-800 p-4">
+                                                            <span class="text-slate-400">Theme Update</span>
+                                                        </td>
+                                                        <td class="text-end border-t border-gray-100 dark:border-gray-800 p-4">
+                                                            <span class="text-slate-400">7th August 2024</span>
+                                                        </td>
+                                                    </tr>
+                                                    
+                                                    <tr>
+                                                        <th class="text-start border-t border-gray-100 dark:border-gray-800 p-4">
+                                                            <input class="form-checkbox size-4 appearance-none rounded-sm border border-gray-200 dark:border-gray-800 accent-primary checked:appearance-auto dark:accent-primary focus:border-primary-300 focus:ring-0 focus:ring-offset-0 focus:ring-primary-200 focus:ring-opacity-50" type="checkbox" value="" id="firstcheck">
+                                                        </th>
+                                                        <td class="text-center border-t border-gray-100 dark:border-gray-800 p-4">
+                                                            <a href=""><i class="ri-star-s-fill text-[18px] text-yellow-500 align-middle"></i></a>
+                                                        </td>
+                                                        <td class="text-start border-t border-gray-100 dark:border-gray-800 p-4">
+                                                            <a href="javascript:void(0)" class="font-medium hover:text-primary" onclick="emailpreview.showModal()">Richard Benavides</a>
+                                                        </td>
+                                                        <td class="text-start border-t border-gray-100 dark:border-gray-800 p-4">
+                                                            <span class="text-slate-400">Your product has been updated!</span>
+                                                        </td>
+                                                        <td class="text-end border-t border-gray-100 dark:border-gray-800 p-4">
+                                                            <span class="text-slate-400">5th August 2024</span>
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+
+                                        <div class="mt-4 flex items-center justify-between">
+                                            <div>
+                                                <a href="#" class="size-8 inline-flex items-center justify-center font-semibold tracking-wide border align-middle duration-500 text-base text-center bg-gray-100 dark:bg-gray-700 hover:bg-gray-200 dark:hover:bg-gray-800 border-gray-100 dark:border-gray-700 text-slate-400 hover:text-slate-900 dark:hover:text-white rounded-full"><i class="ri-arrow-left-s-line"></i></a>
+                                                <a href="#" class="size-8 inline-flex items-center justify-center font-semibold tracking-wide border align-middle duration-500 text-base text-center bg-gray-100 dark:bg-gray-700 hover:bg-gray-200 dark:hover:bg-gray-800 border-gray-100 dark:border-gray-700 text-slate-400 hover:text-slate-900 dark:hover:text-white rounded-full"><i class="ri-arrow-right-s-line"></i></a>
+                                            </div>
+
+                                            <span class="text-slate-400">Showing 1 - 9 out of 45</span>
+                                        </div>
+                                    </div>
+                                    <div class="hidden" id="stared" role="tabpanel" aria-labelledby="stared-tab">
+                                        <div class="relative overflow-x-auto block w-full bg-white dark:bg-slate-900 shadow-sm dark:shadow-gray-700 rounded-md">
+                                            <table class="w-full text-start">
+                                                <thead class="text-base">
+                                                    <tr>
+                                                        <th class="text-start p-4 w-10 min-w-7.5 max-w-7.5">
+                                                            <input class="form-checkbox size-4 appearance-none rounded-sm border border-gray-200 dark:border-gray-800 accent-primary checked:appearance-auto dark:accent-primary focus:border-primary-300 focus:ring-0 focus:ring-offset-0 focus:ring-primary-200 focus:ring-opacity-50" type="checkbox" value="" id="allcheck">
+                                                        </th>
+                                                        <th class="text-center p-4 w-10 min-w-7.5 max-w-7.5"></th>
+                                                        <th class="text-start p-4 w-48 min-w-50">Name</th>
+                                                        <th class="text-start p-4 w-auto min-w-50">Subject</th>
+                                                        <th class="text-end p-4 w-48 min-w-50">Date & Time</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr>
+                                                        <th class="text-start border-t border-gray-100 dark:border-gray-800 p-4">
+                                                            <input class="form-checkbox size-4 appearance-none rounded-sm border border-gray-200 dark:border-gray-800 accent-primary checked:appearance-auto dark:accent-primary focus:border-primary-300 focus:ring-0 focus:ring-offset-0 focus:ring-primary-200 focus:ring-opacity-50" type="checkbox" value="" id="firstcheck">
+                                                        </th>
+                                                        <td class="text-center border-t border-gray-100 dark:border-gray-800 p-4">
+                                                            <a href=""><i class="ri-star-s-fill text-[18px] text-yellow-500 align-middle"></i></a>
+                                                        </td>
+                                                        <td class="text-start border-t border-gray-100 dark:border-gray-800 p-4">
+                                                            <a href="javascript:void(0)" class="font-medium hover:text-primary" onclick="emailpreview.showModal()">Sherrie Miller</a>
+                                                        </td>
+                                                        <td class="text-start border-t border-gray-100 dark:border-gray-800 p-4">
+                                                            <span class="text-slate-400">Focused impactful open system 📷 😃</span>
+                                                        </td>
+                                                        <td class="text-end border-t border-gray-100 dark:border-gray-800 p-4">
+                                                            <span class="text-slate-400">8hours ago</span>
+                                                        </td>
+                                                    </tr>
+
+                                                    <tr>
+                                                        <th class="text-start border-t border-gray-100 dark:border-gray-800 p-4">
+                                                            <input class="form-checkbox size-4 appearance-none rounded-sm border border-gray-200 dark:border-gray-800 accent-primary checked:appearance-auto dark:accent-primary focus:border-primary-300 focus:ring-0 focus:ring-offset-0 focus:ring-primary-200 focus:ring-opacity-50" type="checkbox" value="" id="firstcheck">
+                                                        </th>
+                                                        <td class="text-center border-t border-gray-100 dark:border-gray-800 p-4">
+                                                            <a href=""><i class="ri-star-s-fill text-[18px] text-yellow-500 align-middle"></i></a>
+                                                        </td>
+                                                        <td class="text-start border-t border-gray-100 dark:border-gray-800 p-4">
+                                                            <a href="javascript:void(0)" class="font-medium hover:text-primary" onclick="emailpreview.showModal()">Ester Casella</a>
+                                                        </td>
+                                                        <td class="text-start border-t border-gray-100 dark:border-gray-800 p-4">
+                                                            <span class="text-slate-400">Theme Update</span>
+                                                        </td>
+                                                        <td class="text-end border-t border-gray-100 dark:border-gray-800 p-4">
+                                                            <span class="text-slate-400">7th August 2024</span>
+                                                        </td>
+                                                    </tr>
+                                                    
+                                                    <tr>
+                                                        <th class="text-start border-t border-gray-100 dark:border-gray-800 p-4">
+                                                            <input class="form-checkbox size-4 appearance-none rounded-sm border border-gray-200 dark:border-gray-800 accent-primary checked:appearance-auto dark:accent-primary focus:border-primary-300 focus:ring-0 focus:ring-offset-0 focus:ring-primary-200 focus:ring-opacity-50" type="checkbox" value="" id="firstcheck">
+                                                        </th>
+                                                        <td class="text-center border-t border-gray-100 dark:border-gray-800 p-4">
+                                                            <a href=""><i class="ri-star-s-fill text-[18px] text-yellow-500 align-middle"></i></a>
+                                                        </td>
+                                                        <td class="text-start border-t border-gray-100 dark:border-gray-800 p-4">
+                                                            <a href="javascript:void(0)" class="font-medium hover:text-primary" onclick="emailpreview.showModal()">Richard Benavides</a>
+                                                        </td>
+                                                        <td class="text-start border-t border-gray-100 dark:border-gray-800 p-4">
+                                                            <span class="text-slate-400">Your product has been updated!</span>
+                                                        </td>
+                                                        <td class="text-end border-t border-gray-100 dark:border-gray-800 p-4">
+                                                            <span class="text-slate-400">5th August 2024</span>
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                    <div class="hidden" id="spam" role="tabpanel" aria-labelledby="spam-tab">
+                                        <div class="relative overflow-x-auto block w-full bg-white dark:bg-slate-900 shadow-sm dark:shadow-gray-700 rounded-md p-6">
+                                            <span class="text-slate-400">Hooray, no spam here!</span>
+                                        </div>
+                                    </div>
+                                    <div class="hidden" id="sent" role="tabpanel" aria-labelledby="sent-tab">
+                                        <div class="relative overflow-x-auto block w-full bg-white dark:bg-slate-900 shadow-sm dark:shadow-gray-700 rounded-md">
+                                            <table class="w-full text-start">
+                                                <thead class="text-base">
+                                                    <tr>
+                                                        <th class="text-start p-4 w-10 min-w-7.5 max-w-7.5">
+                                                            <input class="form-checkbox size-4 appearance-none rounded-sm border border-gray-200 dark:border-gray-800 accent-primary checked:appearance-auto dark:accent-primary focus:border-primary-300 focus:ring-0 focus:ring-offset-0 focus:ring-primary-200 focus:ring-opacity-50" type="checkbox" value="" id="allcheck">
+                                                        </th>
+                                                        <th class="text-center p-4 w-10 min-w-7.5 max-w-7.5"></th>
+                                                        <th class="text-start p-4 w-48 min-w-50">Name</th>
+                                                        <th class="text-start p-4 w-auto min-w-50">Subject</th>
+                                                        <th class="text-end p-4 w-48 min-w-50">Date & Time</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr>
+                                                        <th class="text-start border-t border-gray-100 dark:border-gray-800 p-4">
+                                                            <input class="form-checkbox size-4 appearance-none rounded-sm border border-gray-200 dark:border-gray-800 accent-primary checked:appearance-auto dark:accent-primary focus:border-primary-300 focus:ring-0 focus:ring-offset-0 focus:ring-primary-200 focus:ring-opacity-50" type="checkbox" value="" id="firstcheck">
+                                                        </th>
+                                                        <td class="text-center border-t border-gray-100 dark:border-gray-800 p-4">
+                                                            <a href=""><i class="ri-star-s-line text-[18px] text-slate-400 align-middle"></i></a>
+                                                        </td>
+                                                        <td class="text-start border-t border-gray-100 dark:border-gray-800 p-4">
+                                                            <a href="javascript:void(0)" class="font-medium hover:text-primary" onclick="emailpreview.showModal()">Calvin Carlo</a>
+                                                        </td>
+                                                        <td class="text-start border-t border-gray-100 dark:border-gray-800 p-4">
+                                                            <span class="text-slate-400">Hously Customization</span>
+                                                        </td>
+                                                        <td class="text-end border-t border-gray-100 dark:border-gray-800 p-4">
+                                                            <span class="text-slate-400">03:05PM</span>
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                    <div class="hidden " id="draft" role="tabpanel" aria-labelledby="draft-tab">
+                                        <div class="relative overflow-x-auto block w-full bg-white dark:bg-slate-900 shadow-sm dark:shadow-gray-700 rounded-md p-6">
+                                            <span class="text-slate-400">You don't have any saved drafts. Saving a draft allows you to keep a message you aren't ready to send yet.</span>
+                                        </div>
+                                    </div>
+                                    <div class="hidden " id="delete" role="tabpanel" aria-labelledby="delete-tab">
+                                        <div class="relative overflow-x-auto block w-full bg-white dark:bg-slate-900 shadow-sm dark:shadow-gray-700 rounded-md p-6">
+                                            <span class="text-slate-400">No conversations in Trash.</span>
+                                        </div>
+                                    </div>
+                                    <div class="hidden " id="note" role="tabpanel" aria-labelledby="note-tab">
+                                        <div class="relative overflow-x-auto block w-full bg-white dark:bg-slate-900 shadow-sm dark:shadow-gray-700 rounded-md p-6">
+                                            <span class="text-slate-400">No notes in Notes</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End Content -->
+                    </div>
+                </div><!--end container-->
+
+                <!-- Footer Start -->
+                <footer class="shadow-sm dark:shadow-gray-700 bg-white dark:bg-slate-900 px-6 py-4">
+                    <div class="container-fluid">
+                        <div class="grid grid-cols-1">
+                            <div class="sm:text-start text-center mx-md-2">
+                                <p class="mb-0 text-slate-400">© <script>document.write(new Date().getFullYear())</script> Hously. Design with <i class="ri-heart-fill text-red-600"></i> by <a href="https://shreethemes.in/" target="_blank" class="text-reset">Shreethemes</a>.</p>
+                            </div><!--end col-->
+                        </div><!--end grid-->
+                    </div><!--end container-->
+                </footer><!--end footer-->
+                <!-- End -->
+            </main>
+            <!--End page-content" -->
+        </div>
+        <!-- page-wrapper -->
+
+        <!-- Start Modal -->
+        <dialog id="composemail" class="rounded-md shadow-sm dark:shadow-gray-800 bg-white dark:bg-slate-900 text-slate-900 dark:text-white m-auto">
+            <div class="relative h-auto md:w-180 w-300px">
+                <div class="flex justify-between items-center px-6 py-4 border-b border-gray-100 dark:border-gray-700">
+                    <h3 class="font-semibold text-lg">Compose</h3>
+                    <form method="dialog">
+                        <button class="size-6 flex justify-center items-center shadow-sm dark:shadow-gray-800 rounded-md btn-ghost"><i class="ri-close-line"></i></button>
+                    </form>
+                </div>
+                <div class="p-6">
+                    <form>
+                        <div class="grid md:grid-cols-12 grid-cols-1 gap-4">
+                            <div class="md:col-span-12">
+                                <div class="form-icon relative">
+                                    <input name="email" id="toemail" type="email" class="form-input border border-gray-200! dark:border-gray-800!" placeholder="To">
+                                </div>
+                            </div>
+
+                            <div class="md:col-span-6">
+                                <div class="form-icon relative">
+                                    <input name="email" id="ccemail" type="email" class="form-input border border-gray-200! dark:border-gray-800!" placeholder="Cc">
+                                </div>
+                            </div>
+
+                            <div class="md:col-span-6">
+                                <div class="form-icon relative">
+                                    <input name="email" id="bccemail" type="email" class="form-input border border-gray-200! dark:border-gray-800!" placeholder="Bcc">
+                                </div>
+                            </div>
+
+                            <div class="md:col-span-12">
+                                <div id="editor"><p>Hello,<br><br> If the distribution of letters and 'words' is random, the reader will not be distracted from making a neutral judgment on the visual impact and readability of the typefaces (typography), or the distribution of text on the page (layout or type area). <br><br>Thank you</p></div>
+                            </div>
+
+                            <div class="md:col-span-12">
+                                <button type="submit" id="submit" name="send" class="btn bg-primary hover:bg-primary-dark border-primary hover:border-primary-dark text-white rounded-md cursor-pointer">Send Now</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </dialog>
+        <!-- End Modal -->
+
+        <!-- Start Modal -->
+        <dialog id="emailpreview" class="rounded-md shadow-sm dark:shadow-gray-800 bg-white dark:bg-slate-900 text-slate-900 dark:text-white m-auto">
+            <div class="relative h-auto md:w-180 w-300px">
+                <div class="flex justify-between items-center px-6 py-4 border-b border-gray-100 dark:border-gray-700">
+                    <h3 class="font-semibold text-lg">Techwind Customization</h3>
+                    <form method="dialog">
+                        <button class="size-6 flex justify-center items-center shadow-sm dark:shadow-gray-800 rounded-md btn-ghost"><i class="ri-close-line"></i></button>
+                    </form>
+                </div>
+                <div class="p-4 border-b border-gray-100 dark:border-gray-800">
+                    <div class="flex items-center justify-between">
+                        <div class="flex items-center">
+                            <img src="assets/images/client/05.jpg" class="size-14 rounded-full shadow-sm dark:shadow-gray-700" alt="">
+                            <div class="ms-2">
+                                <span class="block font-semibold">Cristina Julia</span>
+                                <div class="dropdown relative">
+                                    <button data-dropdown-toggle="dropdown" class="dropdown-toggle text-slate-400" type="button">
+                                        cristinajulia@xyz.mail <i class="ri-arrow-down-s-fill text-slate-900 dark:text-white"></i>
+                                    </button>
+                                    <div class="dropdown-menu absolute inset-s-0 m-0 mt-1 z-10 w-62.5 rounded-md overflow-hidden bg-white dark:bg-slate-900 shadow-sm dark:shadow-gray-700 hidden" onclick="event.stopPropagation();">
+                                        <ul class="list-none py-2 text-start">
+                                            <li class="mx-2 text-slate-400 text-sm flex">From: <span class="text-slate-900 dark:text-white ms-1">cristinajulia@xyz.mail</span></li>
+                                            <li class="mx-2 text-slate-400 text-sm flex">To: <span class="text-slate-900 dark:text-white ms-1">support@shreethemes.in</span></li>
+                                            <li class="mx-2 text-slate-400 text-sm flex">Date: <span class="text-slate-900 dark:text-white ms-1">3:45pm 16th Aug, 2021</span></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="">
+                            <a href="#" class="size-8 inline-flex items-center justify-center font-semibold tracking-wide border align-middle duration-500 text-base text-center bg-gray-100 dark:bg-gray-700 hover:bg-gray-200 dark:hover:bg-gray-800 border-gray-100 dark:border-gray-700 text-slate-400 hover:text-slate-900 dark:hover:text-white rounded-full" data-bs-toggle="tooltip" data-bs-placement="top" title="Reply"><i class="ri-corner-up-left-line font-normal"></i></a>
+                            <a href="#" class="size-8 inline-flex items-center justify-center font-semibold tracking-wide border align-middle duration-500 text-base text-center bg-gray-100 dark:bg-gray-700 hover:bg-gray-200 dark:hover:bg-gray-800 border-gray-100 dark:border-gray-700 text-slate-400 hover:text-slate-900 dark:hover:text-white rounded-full" data-bs-toggle="tooltip" data-bs-placement="top" title="Forward"><i class="ri-corner-up-right-line font-normal"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="p-4 border-b border-gray-100 dark:border-gray-800">
+                    <p class="text-slate-400 mb-0">Hello,<br><br> If the distribution of letters and 'words' is random, the reader will not be distracted from making a neutral judgement on the visual impact and readability of the typefaces (typography), or the distribution of text on the page (layout or type area). <br><br>Thank you</p>
+                </div>
+
+                <div class="p-4">
+                    <p class="text-slate-400 mb-0">Click here to <a href="#!" class="text-primary">Reply</a> or <a href="#!" class="text-primary">Forward</a></p>
+                </div> 
+            </div>
+        </dialog>
+        <!-- End Modal -->
+
+        <!-- Switcher -->
+        <div class="fixed top-[30%] -inset-e-2 z-50">
+            <span class="relative inline-block rotate-90">
+                <input type="checkbox" class="checkbox opacity-0 absolute" id="chk" />
+                <label class="label bg-slate-900 dark:bg-white shadow-sm dark:shadow-gray-700 cursor-pointer rounded-full flex justify-between items-center p-1 w-14 h-8" for="chk">
+                    <i class="ri-moon-line text-lg text-yellow-500"></i>
+                    <i class="ri-sun-line text-lg text-yellow-500"></i>
+                    <span class="ball bg-white dark:bg-slate-900 rounded-full absolute top-0.5 left-0.5 size-7"></span>
+                </label>
+            </span>
+        </div>
+        <!-- Switcher -->
+
+        <!-- LTR & RTL Mode Code -->
+        <div class="fixed top-[40%] -inset-e-3 z-50">
+            <a href="" id="switchRtl">
+                <span class="py-1 px-3 relative inline-block rounded-b-md -rotate-90 bg-white dark:bg-slate-900 shadow-md dark:shadow-sm dark:shadow-gray-700 font-bold rtl:block ltr:hidden" >LTR</span>
+                <span class="py-1 px-3 relative inline-block rounded-t-md -rotate-90 bg-white dark:bg-slate-900 shadow-md dark:shadow-sm dark:shadow-gray-700 font-bold ltr:block rtl:hidden">RTL</span>
+            </a>
+        </div>
+        <!-- LTR & RTL Mode Code -->
+
+        <!-- JAVASCRIPTS -->
+        <script src="assets/libs/@ckeditor/ckeditor5-build-classic/build/ckeditor.js"></script>
+        <script src="assets/libs/simplebar/simplebar.min.js"></script>
+        <script src="assets/js/plugins.init.js"></script>
+        <script src="assets/js/app.js"></script>
+        <!-- JAVASCRIPTS -->
+    </body>
+</html>
